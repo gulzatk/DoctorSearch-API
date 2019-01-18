@@ -1,3 +1,37 @@
 <!DOCTYPE html>
+<html lang="en">
 
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link href="https://fonts.googleapis.com/css?family=Anton|Oswald" rel="stylesheet">
+        <title>Doctor Search</title>
+    </head>
+
+    <body>
+        <div id="mainHeaderDiv">
+            <p id="mainHeader">Doctor Search</p>
+        </div>
+        <div class="button-container">
+            <div class="button-center">
+                <form id="searchByName">
+                    <label for="doctorName">Search doctor by name!</label>
+                    <input id="doctorName" type="text" required></input>
+                    <button type="submit" class="button">Submit</button>
+                </form>
+            </div>
+            <div class="button-center">
+                <form id="searchBySymptoms">
+                    <label for="symptom">write symptoms tofind a doctor!</label>
+                    <button type="submit" class="button">Submit</button>
+                </form>
+            </div>
+        </div>
+        <hr class="mainHR">
+        <div id="result">
+            <p id="doctorNameOutput"></p>
+        </div>
+        <hr class="mainHR">
+    </body>
 </html>

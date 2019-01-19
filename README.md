@@ -27,13 +27,13 @@
 1. The user enter a medical issue receive a list of doctors.
   * Example input: headache
   * Example output:
-1. The user enter a dortors name and receive that doctors information.
+2. The user enter a dortors name and receive that doctors information.
   * Example input: Dr.Example
   * Example output: fist name, last name, phone, address...
-1. The user can see list of specialties.
+3. The user can search doctor by specialties.
 
 4. The program return error message if there is not doctors with search criteria.
- * Example: "Doctor not found".
+  * Example: "Doctor not found".
 
 ## Technologies Used
 

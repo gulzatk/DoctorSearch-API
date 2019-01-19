@@ -10,7 +10,7 @@
 
 ## Setup/Installation Requirements
 
-* Clone this repository:
+* Clone this repository: https://github.com/gulzatk/DoctorSearch-API.git
 * Open file in terminal.
 * Run the command install npm from terminal
 * Navigate to DoctorAPI to register for an API key.

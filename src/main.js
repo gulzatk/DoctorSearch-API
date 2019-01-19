@@ -4,6 +4,20 @@ import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Doctor } from './doctor.js';
 
+let doctor = new Doctor();
+let promise = doctor.getBySpecialty();
+
+promise.then(function(response) {
+    let body = JSON.parse(response);
+    let list = body.data;
+    const selectForm = $("#specialty");
+    console.log(selectForm);
+    console.log(list);
+    for(let i = 0; i < list.length; i++){
+        selectForm.append(`<option value = "${list[i].name}">${list[i].name}</option>`);
+    }
+});
+
 $(document).ready(function() {
 
   $("#searchByName").submit(function(event) {
